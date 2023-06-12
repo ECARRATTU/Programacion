@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(124, 108, 88);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+#section-entradas {
+    background-image: url(../imagenes/entradas.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 150px;
+    font-size:larger;
+    
+}
+#section-platos-principales {
+    background-image: url(../imagenes/platos-principales.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 150px;
+    font-size:larger;
+}
+#section-postres {
+    background-image: url(../imagenes/postres.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 150px;
+    font-size:larger;
+}
+#section-bebidas {
+    background-image: url(../imagenes/bebidas.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 150px;
+    font-size:larger;
+}
+
+h1 {
+    color: rgb(225, 255, 0);
+    background-color: rgba(0, 0, 0, 0.706);
+}
+
+h2 {
+    color: rgb(255, 11, 11);
+    background-color: rgba(0, 0, 0, 0.706);
+}
+.lista {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.466);
+}
+footer {
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    background-color: rgba(191, 197, 7, 0.256);  
+}
