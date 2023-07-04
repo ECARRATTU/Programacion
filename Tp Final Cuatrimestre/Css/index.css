@@ -1,39 +1,111 @@
 .encabezado {
+  display: flex;
+  justify-content: space-around;
   background-color:rgb(0, 0, 0);
-  height: 200px;
+  height: 500px;
+  align-items: center;
 }
+
+.bi bi-facebook bi-2x {
+    color: #3b5998; /* Color de Facebook */
+}
+
+.bi bi-twitter bi-2x {
+    color: #1da1f2; /* Color de Twitter */
+}
+
+.bi bi-instagram bi-2x {
+    color: #e4405f; /* Color de Instagram */
+}
+
 .noticias {
   display: flex;
   justify-content: center;
   align-items: center; 
 }
 .noticias img {
-  max-width: 100%; 
+  max-width:max-content;
   height: auto;
 }
-.Nosotros {
+
+.programacion {
   background-color:rgb(0, 0, 0);
-  height: 50px;
+  display: flex;
+  justify-content: center;
 }
-.Contacto {
+
+#programacion p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:xx-large;
+  color: rgb(255, 255, 255);
+  margin-top: 50%;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color:rgb(0, 0, 0);
-  height: 50px;
-}
-#logo {
-  width: 30%;
-  height: 100%;
-  background-image: url(../Recursos/delta-logo.png);
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size:cover;
-}
-#nombre {
-  width: 15%;
-  height: 100%;
-}
-h2 {
+  color: rgb(255, 255, 0);
+  height: 200px;
   text-align: center;
-  font-size: x-large;
+}
+
+.nosotros p {
+  font-size:x-large;
+  text-align: center;
+}
+
+.contacto {
+  background-color:rgb(0, 0, 0);
+  display:flex;
+  justify-content:space-between;
+  padding: 10%;
+}
+
+#contacto {
+  background-color:rgb(0, 0, 0);
+  height: 500px;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 400px;
+}
+
+#logo-nombre-dial {
+  display:inline-block;
+}
+
+#nombre-dial{
+  padding: 20px;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.footer {
+  background-color:rgb(0, 0, 0);
+  height: 50px;
+}
+
+.footer p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:xx-large;
+  text-align: center;
 }
 
 
